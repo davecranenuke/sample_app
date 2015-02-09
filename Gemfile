@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 ruby '1.9.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
-# Use postgresql as the database for Active Record
+# Use postgresql as the database for Active Record and install 12factor
+gem 'rails_12factor'
 gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
